@@ -1,2 +1,12 @@
+info:
+  name: lession-2-sms-interface
+server:
+  port: 9002
+
+# 调用refresh的时候不校验权限
+management:
+  security:
+    enabled: false
+    
 liyj:
   configString: Hello World!
