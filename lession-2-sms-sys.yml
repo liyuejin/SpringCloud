@@ -4,7 +4,7 @@ spring:
     host: 192.168.121.129
     username: guest
     # 密文需要以{cipher}做为标识
-    password: '{cipher}31010f99731d4bd8aa7e3ce76152b5686265e1160043aac7cf769c3c8e1bb7ef'
+    password: '{cipher}e2898a193d92e8cfcbfe33c0db417853938c7ed2038a6b10cce2aece67be66cd'
 info:
   name: lession-2-sms-interface
 server:
