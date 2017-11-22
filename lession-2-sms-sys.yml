@@ -1,3 +1,10 @@
+# 这个会被所有应用读取到，用来做公共配置
+spring:
+  rabbitmq:
+    host: 192.168.121.129
+    username: guest
+    # 密文需要以{cipher}做为标识
+    password: '{cipher}31010f99731d4bd8aa7e3ce76152b5686265e1160043aac7cf769c3c8e1bb7ef'
 info:
   name: lession-2-sms-interface
 server:
@@ -9,4 +16,4 @@ management:
     enabled: false
     
 liyj:
-  configString: Hello World 李悦金 shanshan!
+  configString: Hello World 李悦金!
